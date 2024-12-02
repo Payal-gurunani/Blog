@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteBlog } from "../features/blogs/blogSlice";
+import { deleteBlog } from "../Features/blogs/blogSlice";
 import { Link } from "react-router-dom";
 
 const Home = () => {
